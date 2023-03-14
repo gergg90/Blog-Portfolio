@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Menu encabezado -->
+    <div class="container-header">
+      <header>
+        <div class="logo">
+          <a href="#">GerGG</a>
+        </div>
+
+        <nav id="nav" class="responsive">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+            <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+            <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- Seccion de inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/profile-pic.png" alt="">
+            </div>
+            <h1>Germain Gutierrez</h1>
+            <h2>Backend - Junior Developer</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/germain-gutierrez-b589a6269/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/gergg90" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion sobre mi -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí:</h2>
+            <p><span>Hola, mi nombre es Germain Gutierrez.</span> Soy aspirante a desarrollador backend, poseo conocimientos en frameworks de python:, django, django restframework, djangoORM (sqlite), fastapi. Api rest, json. Frameworks de javascript: react, nodejs & express. Bases de datos no relacionales: Mongodb. Conocimientos de programacion en el area de desarrollo movil con kotlin: IDE android studio, xml, layouts, gradle, retrofit, corrutinas y un poco de firebase. </p>
+            
+            <p><span>Futuras tegnologias a aprender: </span>Sql, postgresql, graphql, bash, gnu-linux ubuntu, docker, kuberetes, tailwindcss, react redux, go, gobuffalo, aws.</p>
+
+            <div class="fila">
+              <!-- Datos personales -->
+              <div class="col">
+                <h3>Datos personales</h3>
+                <ul>
+                  <li>
+                    <strong>Fecha de nacimiento:</strong>
+                    13/11/1990
+                  </li>
+                  <li>
+                    <strong>Edad:</strong>
+                    32 años
+                  </li>
+                  <li>
+                    <strong>Telefono:</strong>
+                    +56 412 560-46-96
+                  </li>
+                  <li>
+                    <strong>Email:</strong>
+                    germain.gg90@gmail.com
+                  </li>
+                  <li>
+                    <strong>Pais-Region:</strong>
+                    Caracas - Venezuela
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+
+            <form action="https://resume.io/r/T024I9fSS" target="_blank">
+              <button>
+                Descargar CV
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <span class="overlay"></span>
+              </button>
+            </form>
+
+            
+
+          </div>
+    </section>
+
+   <!-- SECCION SKILLS -->
+     <section class="skills" id="skills">
+      <div class="contenido-seccion">
+      <h2>Skills</h2>
+      <div class="fila">
+          <!-- Technical Skill -->
+          <div class="col">
+              <h3>Technical Skills</h3>
+              <div class="skill">
+                  <span>Python</span>
+                  <div class="barra-skill">
+                      <div class="progreso">
+                          <span>65%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>HTML & CSS</span>
+                  <div class="barra-skill">
+                      <div class="progreso">
+                          <span>50%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>JavaScript</span>
+                  <div class="barra-skill">
+                      <div class="progreso">
+                          <span>55%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>Kotlin</span>
+                  <div class="barra-skill">
+                      <div class="progreso">
+                          <span>50%</span>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+          <!-- Professional Skills -->
+          <div class="col">
+              <h3>Professional Skills</h3>
+              <div class="skill">
+                  <span>Comunicación</span>
+                  <div class="barra-skill">
+                      <div class="progreso">
+                          <span>70%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>Trabajo en Equipo</span>
+                  <div class="barra-skill">
+                      <div class="progreso">
+                          <span>85%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>Creatividad</span>
+                  <div class="barra-skill">
+                      <div class="progreso">
+                          <span>70%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>Dedicación</span>
+                  <div class="barra-skill">
+                      <div class="progreso">
+                          <span>90%</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+   </section>
+
+   <!-- Seccion Portafolio -->
+   <section class="portafolio" id="portafolio">
+    <div class="contenido-seccion">
+      <h2>Portafolio</h2>
+      <div class="galeria">
+
+        <div class="proyecto">
+          <img src="/img/App_createsimpletask.jpeg" alt="">
+          <div class="overlay">
+            <h3>Create Task</h3>
+            <p>App React: Crea y elimina una tarea sencilla con titulo y descripcion. Deploy en Github-Pages</p>
+            <div class="icon">
+              <a href="https://gergg90.github.io/react-task-example/" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <img src="/img/App_rickandmorty_api.jpeg" alt="">
+          <div class="overlay">
+            <h3>Rick and Morty Api</h3>
+            <p>App React: Consumiendo api de Rick and Morty. Deploy en Github-Pages</p>
+            <div class="icon">
+              <a href="https://gergg90.github.io/vite_react_rickandmorty_api/" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <img src="/img/App_django_auth_crud.jpeg" alt="">
+          <div class="overlay">
+            <h3>Crud Auth</h3>
+            <p>App django: Creacion y autenticacion de usuario, crea, actualiza, completa y elimina tareas. Deploy en render.com</p>
+
+            <div class="icon">
+              <a href="https://django-auth-crud-f3u1.onrender.com/" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+
+            
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+   </section>
+
+   <!-- Seccion Footer -->
+   <footer>
+    <a href="#inicio" class="arriba">
+      <i class="fa-sharp fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+      <a href="https://www.linkedin.com/in/germain-gutierrez-b589a6269/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/gergg90" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+    </div>
+
+   </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
